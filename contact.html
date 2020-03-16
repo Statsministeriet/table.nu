@@ -104,7 +104,10 @@
                         <h2 class="contact-title">Skriv til os!</h2>
                     </div>
                     <div class="col-lg-8">
-                        <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                        <form class="form-contact contact_form" action="https://getsimpleform.com/messages?form_api_token=930d410d9ca5ed069da6171126391b0a" method="post">
+                            <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+                            <input type='hidden' name='redirect_to' value='https://statsministeriet.github.io/table.nu/' />
+                            <!-- all your input fields here.... -->
                             <div class="row">
                                 <div class="col-12">
                                     <div class="form-group">
@@ -131,6 +134,7 @@
                                 <button type="submit" class="button button-contactForm boxed-btn">Send</button>
                             </div>
                         </form>
+                                
                     </div>
                     <div class="col-lg-3 offset-lg-1">
                         <div class="media contact-info">
